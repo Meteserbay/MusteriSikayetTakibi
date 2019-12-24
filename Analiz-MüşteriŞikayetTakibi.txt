@@ -1,0 +1,31 @@
+Proje : Müþteri Þikayet Takibi
+
+Sýnýflar:
+Test Sýnýfý:MusteriTakipSistemi
+Süper Sýnýf:Müþteri
+Alt Sýnýf:Fatura
+
+
+
+Amaç
+
+Yönettiðimiz google stadia tarzý bir þirket bulut üzerinden müþterilere hizmet sunuyor. Müþterimizin kullanýmýna baðlý olarak ücretlendirme,
+bu ücretlendirmeyi görme, düzenleme vb. iþlemleri amaçlayan bir program yapýldý.
+
+
+
+
+Analiz:
+
+Programda ilk olarak Anasayfa arayüz class a giriyoruz. Karþýmýzda Müþteri ekle,Þikayetler,Müþterileri Görüntüle,Þikayetleri
+görüntüle olarak 4 buton var. Müþteri Ekle butonuna bastýðýmýzda bizden müþterinin kiþisel bilgilerini ve fatura bilgilerini istiyor.
+Ekle butonuna bastýðýmýzda veritabaný baðlantýsýyla veritabanýmýza bilgileri ekliyor. Þikayetler menüsünde bütün þikayetleri gösteren bir 
+tablo var. Bu menüde de 3 buton var. Þikayet ekle,þikayet sil,þikayet güncelle. Þikayet ekle butonu bize yeni bir pencere açarak
+kiþinin ismini soyismini ve þikayetini istiyor ve veritabanýna þikayeti ekliyor. Þikayet sil butonuna basmadan önce tablodan silinecek 
+þikayeti seçiyoruz. Þikayet güncelle butonu ise bize yeni bir pencere açarak tekrar güncellenecek þikayeti seçiyoruz ve güncelle butonuna 
+basýyoruz. Anasayfaya tekrar döndüðümüzde bir sonraki buton Müþterileri Görüntüle. Bize yeni bir pencere açarak sadece müþterileri gösteriyor.
+Fakat bu pencere ekle,silme,güncelleme iþlemlerini yaptýrmýyor. Bu iþlemleri Müþteri ekle butonumuzda yapýyoruz. Son butonumuz 
+Þikayetleri görüntüle butonunda yine ayný þekilde bize bütün þikayetleri gösteriyor, ekle,güncelle,sil iþlemlerini Þikayetler butonunda 
+yaptýðýmýz için bu pencere sadece þikayetleri göstermek için bulunuyor.
+
+ 
